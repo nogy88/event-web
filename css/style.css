@@ -94,7 +94,7 @@ ul, ol {
   color: #FFF;
   text-transform: uppercase;
   border: none;
-  border-radius: 2px;
+  border-radius: 80px;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -139,7 +139,16 @@ textarea.input {
   right: 0;
   bottom: 0;
   background-size:cover;
+  background-image: url("/img/background.png");
   z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-bg {
+  background-size:contain;
+  background-image: url("/img/backgroundMobile.png");
+
+  }
 }
 
 .section-title {
@@ -178,7 +187,7 @@ textarea.input {
 
 .navbar-brand {
   padding: 0;
-  margin: 15px 0px;
+  margin: 0px 0px;
 }
 
 .navbar-brand .logo {
@@ -186,12 +195,13 @@ textarea.input {
 }
 
 .navbar-brand .logo>img {
-  max-height: 50px;
-}
+  max-height: 80px;
+} 
+
 
 @media only screen and (max-width: 767px) {
   .navbar-brand {
-    margin: 15px 15px;
+    margin: 0px 15px;
   }
 }
 
@@ -744,7 +754,7 @@ textarea.input {
   color: #FFF;
   /* text-transform: uppercase; */
   font-weight: 700;
-  font-size: 22px; /*40px*/
+  font-size: 22px; 
   line-height: 30px;
 }
 
@@ -753,6 +763,18 @@ textarea.input {
   /* text-transform: uppercase; */
   font-size: 10px;
 }
+
+@media only screen and (max-width: 767px) {
+  .event .event-day .day {
+    display:none;
+  }
+  
+  .event .event-day .year {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+}
+
 
 .event .event-content {
   padding-left: 160px;
@@ -816,6 +838,7 @@ textarea.input {
 #map {
   height: 380px;
   margin-top: 60px;
+  width: 100%;
 }
 
 /*=========================================================

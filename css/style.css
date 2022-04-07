@@ -139,15 +139,14 @@ textarea.input {
   right: 0;
   bottom: 0;
   background-size:cover;
-  background-image: url("/img/background.png");
+  background-image: url("../img/background.png");
   z-index: -1;
 }
 
 @media only screen and (max-width: 767px) {
   .section-bg {
   background-size:contain;
-  background-image: url("/img/backgroundMobile.png");
-
+  background-image: url("../img/backgroundMobile.png");
   }
 }
 

@@ -634,6 +634,11 @@ textarea.input {
   color: #24abf8;
 }
 
+
+.speaker-modal .speaker-modal-content .speaker-desc {
+  text-align: justify;
+}
+
 .speaker-modal .speaker-modal-content .speaker-social {
   margin-top: 30px;
   margin-bottom: 30px;

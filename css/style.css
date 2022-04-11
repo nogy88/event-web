@@ -416,6 +416,12 @@ textarea.input {
   margin-bottom: 30px;
 }
 
+
+.fake-link {
+  color: #24abf8;
+}
+
+
 .number h3 {
   font-size: 42px;
   margin-bottom: 0px;

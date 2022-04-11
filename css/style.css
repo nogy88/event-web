@@ -43,6 +43,10 @@ body {
   color: #444;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0px 0px 15px;
   color: #0b0f28;
@@ -144,9 +148,11 @@ textarea.input {
 }
 
 @media only screen and (max-width: 767px) {
-  .section-bg {
-  background-size:contain;
-  background-image: url("../img/backgroundMobile.png");
+  .section-bg {  
+   background-image: url("../img/backgroundMobile.png");
+   height: 100%;
+   width: 100%;
+   background-position: center center;
   }
 }
 
@@ -365,6 +371,7 @@ textarea.input {
 #home {
   height: 100vh;
   position: relative;
+  text-align: center;
 }
 
 #home .home-wrapper {
@@ -806,6 +813,26 @@ textarea.input {
 	SPONSORS
 ===========================================================*/
 
+.sponsor-container {
+  padding: 0 100px;
+}
+
+.sponsor-border {
+  border-right: 2px solid #ccc;
+}
+
+@media only screen and (max-width: 767px) {
+  .sponsor-container {
+    padding: 0 40px;
+  }
+
+  .sponsor-border {
+    border-right: none;
+  }
+
+
+}
+
 .sponsor {
   display: block;
   opacity: 0.5;
@@ -821,6 +848,8 @@ textarea.input {
 .sponsor>img {
   width: 100%;
 }
+
+
 
 /*=========================================================
 	CONTACT

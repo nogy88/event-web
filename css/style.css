@@ -502,12 +502,6 @@ textarea.input {
   padding-bottom: 90px;
 }
 
-#mentals h3, div, span {
-  text-align: justify;
-}
-
-
-
 .mental {
   position: relative;
   cursor: pointer;
@@ -521,6 +515,8 @@ textarea.input {
 @media only screen and (max-width: 767px) {
   .mental {
     padding: 40px 20px;
+    border: none;
+    border-radius: unset;
   }
 }
 

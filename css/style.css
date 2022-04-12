@@ -493,6 +493,50 @@ textarea.input {
   right: 15px;
 }
 
+
+/*=========================================================
+	SETGEL SUDLAL GEJ YU VE?
+===========================================================*/
+#mentals {
+  background-color: #F9F9FA;
+  padding-bottom: 90px;
+}
+
+#mentals h3, div, span {
+  text-align: justify;
+}
+
+
+
+.mental {
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .mental {
+    padding: 40px 20px;
+  }
+}
+
+.mental:hover:after {
+  opacity: 0.8;
+}
+
+.mental >h3 {
+}
+
+.mental >span {
+}
+
+.mental-list {
+  margin-bottom: 20px;
+}
 /*=========================================================
 	SPEAKERS
 ===========================================================*/
